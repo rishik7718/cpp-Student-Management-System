@@ -18,6 +18,7 @@ This project is being continuously improved and expanded with every sprint.
 
 - Add Student Records
 - View All Students
+- Search Student by ID
 - Store Student Name
 - Store Student ID
 - Store Student Course
@@ -25,18 +26,18 @@ This project is being continuously improved and expanded with every sprint.
 - Display Total Number of Students
 - Menu Driven Interface
 - Basic Input Handling
-
+- Empty Student List Handling
+- Student Not Found Handling
 ---
 
 ## 🚧 Upcoming Features
 
-- 🔍 Search Student by ID
-- ✏ Update Student Details
-- 🗑 Delete Student Records
+- ✏️ Update Student Details
+- 🗑️ Delete Student Records
 - 📊 Input Validation
 - 📈 Student Statistics
 - 💾 File Handling (Save Data Permanently)
-- 🏛 Object-Oriented Version using Classes
+- 🏛️ Object-Oriented Version using Classes
 
 ---
 
@@ -100,9 +101,29 @@ Student Management System
 
 ---
 
-## 🚧 Sprint 2 (Coming Soon)
+## 🚧 Sprint 2 :
+### Features Added
 
-- Search Student by ID
+- Added a Search Student option to the main menu
+- Search students using their Student ID
+- Display complete student details when a match is found
+- Display a "Student Not Found" message when no matching ID exists
+- Handle search attempts when no students have been added
+
+### Concepts Practiced
+
+- Linear Search
+- Searching through arrays
+- `for` loops
+- Conditional statements
+- Array indexing
+- Functions
+- Boolean-style search logic
+- Debugging and problem solving
+
+### What I Learned
+
+In this sprint, I learned how Linear Search works and applied it to search through the stored student IDs. The search checks each student one by one until the required ID is found or all stored records have been checked.
 
 ---
 
