@@ -32,15 +32,20 @@ This project is being continuously improved and expanded with every sprint.
 - Empty Student List Handling
 - Student Not Found Handling
 - Invalid Menu Option Handling
+- * Delete Student Records
+* Delete Student by ID
+* Delete Confirmation
+* Array Shifting After Deletion
+* Student Deletion Cancellation
+
 
   
 ## 🚧 Upcoming Features
-
-- 🗑️ Delete Student Records
-- 📊 Input Validation
-- 📈 Student Statistics
-- 💾 File Handling for Permanent Data Storage
-- 🏛️ Object-Oriented Version using Classes
+* 📊 Input Validation
+* 📈 Student Statistics
+* 💾 File Handling for Permanent Data Storage
+* 🏛️ Object-Oriented Version using Classesng Classes
+- 
 
 ---
 
@@ -163,9 +168,36 @@ In this sprint, I learned how to modify existing data stored in arrays. After fi
 
 ---
 
-## 🚧 Sprint 4 (Coming Soon)
+## 🚧 Sprint 4 
+ - Delete Student Records
 
-- Delete Student Records
+### Features Added
+
+* Added a Delete Student option
+* Search for a student using their ID before deletion
+* Display student details before deletion
+* Added confirmation before deleting a student
+* Delete student by shifting remaining array elements
+* Automatically decrease the total student count after deletion
+* Added student-not-found handling
+* Added deletion-cancellation handling
+* Handles deletion when the student list is empty
+
+### Concepts Practiced
+
+* Array shifting
+* Array indexing
+* Linear Search
+* `for` loops
+* `if-else` statements
+* Modifying multiple arrays together
+* Updating the `total` variable
+* Handling edge cases
+* Debugging and fixing logical errors
+
+### What I Learned
+
+In this sprint, I learned how deletion works when using fixed-size arrays. Since array elements cannot simply be removed, the elements after the deleted student are shifted one position to the left, and the total number of students is decreased.
 
 ---
 
