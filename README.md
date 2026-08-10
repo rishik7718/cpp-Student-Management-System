@@ -12,31 +12,34 @@ This project is being continuously improved and expanded with every sprint.
 
 ---
 
-# ✨ Features
+## ✨ Features
 
-## ✅ Implemented
+### ✅ Implemented
 
 - Add Student Records
 - View All Students
 - Search Student by ID
+- Update Student Name
+- Update Student Course
+- Update Student Percentage
 - Store Student Name
 - Store Student ID
 - Store Student Course
 - Store Student Percentage
 - Display Total Number of Students
 - Menu Driven Interface
-- Basic Input Handling
+- Student Capacity Limitation
 - Empty Student List Handling
 - Student Not Found Handling
----
+- Invalid Menu Option Handling
 
+  
 ## 🚧 Upcoming Features
 
-- ✏️ Update Student Details
 - 🗑️ Delete Student Records
 - 📊 Input Validation
 - 📈 Student Statistics
-- 💾 File Handling (Save Data Permanently)
+- 💾 File Handling for Permanent Data Storage
 - 🏛️ Object-Oriented Version using Classes
 
 ---
@@ -127,9 +130,36 @@ In this sprint, I learned how Linear Search works and applied it to search throu
 
 ---
 
-## 🚧 Sprint 3 (Coming Soon)
 
-- Update Student Information
+
+## 🚧 Sprint 3  - Update Student Information
+
+### Features Added
+
+- Added an Update Student option
+- Search for a student using their ID
+- Update student name
+- Update student course
+- Update student percentage
+- Allow multiple details to be updated in one session
+- Added an option to cancel the update process
+- Added invalid update-option handling
+
+### Concepts Practiced
+
+- Array indexing
+- Linear Search
+- Functions
+- `for` loops
+- `switch` statements
+- `do-while` loops
+- Assignment and modifying existing array elements
+- Using temporary variables
+- Data modification
+
+### What I Learned
+
+In this sprint, I learned how to modify existing data stored in arrays. After finding a student using their ID, the index of that student is used to update the corresponding information in the appropriate array.
 
 ---
 
