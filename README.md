@@ -16,36 +16,38 @@ This project is being continuously improved and expanded with every sprint.
 
 ### ✅ Implemented
 
-- Add Student Records
-- View All Students
-- Search Student by ID
-- Update Student Name
-- Update Student Course
-- Update Student Percentage
-- Store Student Name
-- Store Student ID
-- Store Student Course
-- Store Student Percentage
-- Display Total Number of Students
-- Menu Driven Interface
-- Student Capacity Limitation
-- Empty Student List Handling
-- Student Not Found Handling
-- Invalid Menu Option Handling
-- * Delete Student Records
+* Add Student Records
+* View All Students
+* Search Student by ID
+* Update Student Name
+* Update Student Course
+* Update Student Percentage
+* Delete Student Records
 * Delete Student by ID
-* Delete Confirmation
-* Array Shifting After Deletion
-* Student Deletion Cancellation
+* Confirmation before deleting a student
+* Cancel deletion option
+* Shift array elements after deletion
+* Store Student Name
+* Store Student ID
+* Store Student Course
+* Store Student Percentage
+* Display Total Number of Students
+* Menu Driven Interface
+* Student Capacity Limitation
+* Empty Student List Handling
+* Student Not Found Handling
+* Invalid Menu Option Handling
+* Basic Percentage Validation
+-----
 
-
-  
 ## 🚧 Upcoming Features
-* 📊 Input Validation
-* 📈 Student Statistics
+
+* 📊 Student Statistics
 * 💾 File Handling for Permanent Data Storage
-* 🏛️ Object-Oriented Version using Classesng Classes
-- 
+* 🏛️ Object-Oriented Version using Classes
+* 🔍 Better Input Validation
+* 🧹 Code Refactoring
+* 🗃️ Replace Parallel Arrays with Structures/Classes
 
 ---
 
@@ -201,11 +203,42 @@ In this sprint, I learned how deletion works when using fixed-size arrays. Since
 
 ---
 
-## 🚧 Sprint 5 (Coming Soon)
+## 🚧 Sprint 5 
+ - Delete Student & Input Validation
 
-- Final Improvements
-- Better Validation
-- Code Cleanup
+### Features Added
+
+* Added Delete Student option
+* Search for a student using their ID before deletion
+* Added confirmation before deleting a student
+* Added deletion cancellation
+* Shifted remaining student records after deletion
+* Decreased total student count after deletion
+* Added validation for number of students entered
+* Added validation for student percentage
+* Added handling for empty student list
+
+### Concepts Practiced
+
+* Array shifting
+* Array indexing
+* Linear Search
+* Functions
+* `for` loops
+* `if-else`
+* `switch` statements
+* `do-while` loops
+* Modifying existing array elements
+* Deleting data from fixed-size arrays
+* Input validation
+* Returning from functions using `return`
+* Handling edge cases
+
+### What I Learned
+
+In this sprint, I learned how deletion works when using fixed-size arrays. Since arrays do not automatically shrink, the records after the deleted student have to be shifted one position to the left and the total number of students has to be reduced.
+
+I also learned the importance of input validation and handling edge cases such as invalid input, an empty student list, and searching for a student that does not exist.
 
 ---
 
